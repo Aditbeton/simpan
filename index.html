@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Simpan Sesuatu</title>
+  
+  <style>
+  button {
+    margin: 1.5rem;
+    border radius: 10px;
+    padding: 10px 20px;
+  }
+  
+  button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 5px 8px;
+    cursor: pointer;
+    padding: 12px 22px;
+  }
+  
+  textarea {
+  outline: solid black;
+  width: 90%;
+  padding: 0.75rem 1.3rem;
+  font-family: "Roboto", sans-serif;
+  background: var(--secondaryBackgroundColor);
+  border: 1px solid var(--borderColor);
+  border-radius: 3px;
+  resize: none;
+}
+
+  </style>
+  
+</head>
+<body>
+  <h1>
+    SIMPAN SESUATU
+  </h1>
+  <a href="https://drive.google.com/drive/folders/1MPF4BFuqsRkgPUIpjbI2jPT3KEC3AkHL">
+    <button>FILE</button>
+  </a>
+   <form action="https://formspree.io/f/xgvwqnnr" method="POST" class="contact-form">
+            <div>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Apa saja"></textarea>
+            </div>
+            <div>  
+              <button class="btn-submit">Kirim Pesan</button>        
+              <button type="reset">Reset</button>
+            </div>
+          </form>
+</body>
+</html>
